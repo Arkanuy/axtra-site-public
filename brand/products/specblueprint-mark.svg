@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Spec-Blueprint">
+  <!-- blueprint sheet with a folded corner -->
+  <path d="M22 14h40l16 16v56a4 4 0 0 1-4 4H22a4 4 0 0 1-4-4V18a4 4 0 0 1 4-4z"
+        fill="none" stroke="#c8ff4d" stroke-width="3.4" stroke-linejoin="round"/>
+  <!-- the fold -->
+  <path d="M62 14v16h16" fill="none" stroke="#c8ff4d" stroke-width="3.4" stroke-linejoin="round"/>
+  <!-- spec rows, blueprinted -->
+  <path d="M30 44h30M30 54h30M30 64h18" stroke="#5d6470" stroke-width="3" stroke-linecap="round"/>
+  <!-- the trace node: one requirement pinned to one spec line -->
+  <circle cx="66" cy="62" r="7" fill="#c8ff4d"/>
+  <path d="M48 64h11" stroke="#c8ff4d" stroke-width="3" stroke-linecap="round"/>
+</svg>
